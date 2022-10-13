@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MyMovie</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <nav class="navbar">MyMovie</nav>
+        </div>
+        <form  id="form">
+            <input type="text" placeholder="Search" id="search" class="search">
+        </form>
+    </header>
+    <div id="tags"></div>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+        <div class="overlay-content" id="overlay-content"></div>
+        
+        <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a> 
+        
+        <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow" >&#8658;</a>
+
+      </div>
+    <main id="main"></main>
+    <div class="pagination">
+        <div class="page" id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next Page</div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>About Us</h4>
+              <ul>
+                <li>MyMovie is a website that provides information about movies, television shows, home videos.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by MyMovie.</p>
+        </div>
+     </footer>
+    <script src="script.js"></script>
+</body>
+</html>
